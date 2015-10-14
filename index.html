@@ -50,11 +50,13 @@ function descargaArchivo() {
   cargaContenido('http://www.codeproject.com/KB/aspnet/339162/AndroidPushNotification.zip', "GET", muestraContenido);
 }
  
-window.onload = descargaArchivo;
- 
- 
+
 </script>
  
 </head>
-<body></body>
+<body>
+	<input type="text" id="texthtml" placeholder="HTML Text"/> </br>
+       	<input type="button" onclick="descargaArchivo();" value="download"/>
+	
+</body>
 </html>
